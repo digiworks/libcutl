@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="config">
+      </df>
+      <df name="cutl">
+        <df name="compiler">
+          <in>code-stream.hxx</in>
+          <in>code-stream.txx</in>
+          <in>context.cxx</in>
+          <in>context.hxx</in>
+          <in>context.txx</in>
+          <in>cxx-indenter.cxx</in>
+          <in>cxx-indenter.hxx</in>
+          <in>cxx-indenter.ixx</in>
+          <in>cxx-indenter.txx</in>
+          <in>sloc-counter.hxx</in>
+          <in>sloc-counter.txx</in>
+          <in>traversal.hxx</in>
+          <in>traversal.txx</in>
+          <in>type-id.hxx</in>
+          <in>type-id.ixx</in>
+          <in>type-id.txx</in>
+          <in>type-info.cxx</in>
+          <in>type-info.hxx</in>
+          <in>type-info.ixx</in>
+        </df>
+        <df name="container">
+          <in>any.hxx</in>
+          <in>graph.hxx</in>
+          <in>graph.txx</in>
+          <in>key.hxx</in>
+          <in>map-iterator.hxx</in>
+          <in>multi-index.hxx</in>
+          <in>pointer-iterator.hxx</in>
+        </df>
+        <df name="details">
+          <df name="boost">
+            <df name="config">
+              <df name="abi">
+                <in>msvc_prefix.hpp</in>
+                <in>msvc_suffix.hpp</in>
+              </df>
+              <df name="compiler">
+                <in>clang.hpp</in>
+                <in>codegear.hpp</in>
+                <in>comeau.hpp</in>
+                <in>common_edg.hpp</in>
+                <in>compaq_cxx.hpp</in>
+                <in>cray.hpp</in>
+                <in>digitalmars.hpp</in>
+                <in>gcc.hpp</in>
+                <in>gcc_xml.hpp</in>
+                <in>greenhills.hpp</in>
+                <in>hp_acc.hpp</in>
+                <in>intel.hpp</in>
+                <in>kai.hpp</in>
+                <in>metrowerks.hpp</in>
+                <in>mpw.hpp</in>
+                <in>nvcc.hpp</in>
+                <in>pathscale.hpp</in>
+                <in>pgi.hpp</in>
+                <in>sgi_mipspro.hpp</in>
+                <in>sunpro_cc.hpp</in>
+                <in>vacpp.hpp</in>
+                <in>visualc.hpp</in>
+              </df>
+              <df name="no_tr1">
+                <in>cmath.hpp</in>
+                <in>complex.hpp</in>
+                <in>functional.hpp</in>
+                <in>memory.hpp</in>
+                <in>utility.hpp</in>
+              </df>
+              <df name="platform">
+                <in>aix.hpp</in>
+                <in>amigaos.hpp</in>
+                <in>beos.hpp</in>
+                <in>bsd.hpp</in>
+                <in>cray.hpp</in>
+                <in>cygwin.hpp</in>
+                <in>hpux.hpp</in>
+                <in>irix.hpp</in>
+                <in>linux.hpp</in>
+                <in>macos.hpp</in>
+                <in>qnxnto.hpp</in>
+                <in>solaris.hpp</in>
+                <in>symbian.hpp</in>
+                <in>vms.hpp</in>
+                <in>vxworks.hpp</in>
+                <in>win32.hpp</in>
+              </df>
+              <df name="stdlib">
+                <in>dinkumware.hpp</in>
+                <in>libcomo.hpp</in>
+                <in>libcpp.hpp</in>
+                <in>libstdcpp3.hpp</in>
+                <in>modena.hpp</in>
+                <in>msl.hpp</in>
+                <in>roguewave.hpp</in>
+                <in>sgi.hpp</in>
+                <in>stlport.hpp</in>
+                <in>vacpp.hpp</in>
+              </df>
+              <in>abi_prefix.hpp</in>
+              <in>abi_suffix.hpp</in>
+              <in>auto_link.hpp</in>
+              <in>posix_features.hpp</in>
+              <in>requires_threads.hpp</in>
+              <in>select_compiler_config.hpp</in>
+              <in>select_platform_config.hpp</in>
+              <in>select_stdlib_config.hpp</in>
+              <in>suffix.hpp</in>
+              <in>user.hpp</in>
+              <in>warning_disable.hpp</in>
+            </df>
+            <df name="detail">
+              <in>container_fwd.hpp</in>
+              <in>indirect_traits.hpp</in>
+              <in>interlocked.hpp</in>
+              <in>is_function_ref_tester.hpp</in>
+              <in>iterator.hpp</in>
+              <in>lightweight_mutex.hpp</in>
+              <in>sp_typeinfo.hpp</in>
+              <in>workaround.hpp</in>
+            </df>
+            <df name="exception">
+              <df name="detail">
+                <in>attribute_noreturn.hpp</in>
+              </df>
+              <in>exception.hpp</in>
+            </df>
+            <df name="functional">
+              <df name="hash">
+                <df name="detail">
+                  <in>float_functions.hpp</in>
+                  <in>hash_float.hpp</in>
+                  <in>limits.hpp</in>
+                </df>
+                <in>extensions.hpp</in>
+                <in>hash.hpp</in>
+                <in>hash_fwd.hpp</in>
+              </df>
+              <in>hash.hpp</in>
+            </df>
+            <df name="integer">
+              <in>static_log2.hpp</in>
+            </df>
+            <df name="iterator">
+              <df name="detail">
+                <in>config_def.hpp</in>
+                <in>config_undef.hpp</in>
+                <in>enable_if.hpp</in>
+                <in>facade_iterator_category.hpp</in>
+              </df>
+              <in>interoperable.hpp</in>
+              <in>iterator_categories.hpp</in>
+              <in>iterator_facade.hpp</in>
+              <in>iterator_traits.hpp</in>
+            </df>
+            <df name="mpl">
+              <df name="aux_">
+                <df name="config">
+                  <in>adl.hpp</in>
+                  <in>arrays.hpp</in>
+                  <in>bind.hpp</in>
+                  <in>compiler.hpp</in>
+                  <in>ctps.hpp</in>
+                  <in>dmc_ambiguous_ctps.hpp</in>
+                  <in>dtp.hpp</in>
+                  <in>eti.hpp</in>
+                  <in>gcc.hpp</in>
+                  <in>has_apply.hpp</in>
+                  <in>has_xxx.hpp</in>
+                  <in>integral.hpp</in>
+                  <in>intel.hpp</in>
+                  <in>lambda.hpp</in>
+                  <in>msvc.hpp</in>
+                  <in>msvc_typename.hpp</in>
+                  <in>nttp.hpp</in>
+                  <in>overload_resolution.hpp</in>
+                  <in>pp_counter.hpp</in>
+                  <in>preprocessor.hpp</in>
+                  <in>static_constant.hpp</in>
+                  <in>ttp.hpp</in>
+                  <in>use_preprocessed.hpp</in>
+                  <in>workaround.hpp</in>
+                </df>
+                <df name="preprocessor">
+                  <in>add.hpp</in>
+                  <in>def_params_tail.hpp</in>
+                  <in>default_params.hpp</in>
+                  <in>enum.hpp</in>
+                  <in>ext_params.hpp</in>
+                  <in>filter_params.hpp</in>
+                  <in>params.hpp</in>
+                  <in>partial_spec_params.hpp</in>
+                  <in>range.hpp</in>
+                  <in>repeat.hpp</in>
+                  <in>sub.hpp</in>
+                  <in>tuple.hpp</in>
+                </df>
+                <in>adl_barrier.hpp</in>
+                <in>arg_typedef.hpp</in>
+                <in>arity.hpp</in>
+                <in>arity_spec.hpp</in>
+                <in>common_name_wknd.hpp</in>
+                <in>count_args.hpp</in>
+                <in>full_lambda.hpp</in>
+                <in>has_apply.hpp</in>
+                <in>has_rebind.hpp</in>
+                <in>has_type.hpp</in>
+                <in>include_preprocessed.hpp</in>
+                <in>integral_wrapper.hpp</in>
+                <in>lambda_arity_param.hpp</in>
+                <in>lambda_no_ctps.hpp</in>
+                <in>lambda_support.hpp</in>
+                <in>logical_op.hpp</in>
+                <in>msvc_dtw.hpp</in>
+                <in>msvc_is_class.hpp</in>
+                <in>msvc_never_true.hpp</in>
+                <in>na.hpp</in>
+                <in>na_assert.hpp</in>
+                <in>na_fwd.hpp</in>
+                <in>na_spec.hpp</in>
+                <in>nested_type_wknd.hpp</in>
+                <in>nttp_decl.hpp</in>
+                <in>static_cast.hpp</in>
+                <in>template_arity.hpp</in>
+                <in>template_arity_fwd.hpp</in>
+                <in>type_wrapper.hpp</in>
+                <in>value_wknd.hpp</in>
+                <in>yes_no.hpp</in>
+              </df>
+              <df name="limits">
+                <in>arity.hpp</in>
+              </df>
+              <in>always.hpp</in>
+              <in>and.hpp</in>
+              <in>apply.hpp</in>
+              <in>apply_fwd.hpp</in>
+              <in>apply_wrap.hpp</in>
+              <in>arg.hpp</in>
+              <in>arg_fwd.hpp</in>
+              <in>assert.hpp</in>
+              <in>bind.hpp</in>
+              <in>bind_fwd.hpp</in>
+              <in>bool.hpp</in>
+              <in>bool_fwd.hpp</in>
+              <in>eval_if.hpp</in>
+              <in>has_xxx.hpp</in>
+              <in>identity.hpp</in>
+              <in>if.hpp</in>
+              <in>int.hpp</in>
+              <in>int_fwd.hpp</in>
+              <in>integral_c.hpp</in>
+              <in>integral_c_fwd.hpp</in>
+              <in>integral_c_tag.hpp</in>
+              <in>is_placeholder.hpp</in>
+              <in>lambda.hpp</in>
+              <in>lambda_fwd.hpp</in>
+              <in>next.hpp</in>
+              <in>next_prior.hpp</in>
+              <in>not.hpp</in>
+              <in>or.hpp</in>
+              <in>placeholders.hpp</in>
+              <in>protect.hpp</in>
+              <in>quote.hpp</in>
+              <in>size_t.hpp</in>
+              <in>size_t_fwd.hpp</in>
+              <in>void.hpp</in>
+              <in>void_fwd.hpp</in>
+            </df>
+            <df name="preprocessor">
+              <df name="arithmetic">
+                <in>add.hpp</in>
+                <in>dec.hpp</in>
+                <in>inc.hpp</in>
+                <in>sub.hpp</in>
+              </df>
+              <df name="array">
+                <in>data.hpp</in>
+                <in>elem.hpp</in>
+                <in>size.hpp</in>
+              </df>
+              <df name="config">
+                <in>config.hpp</in>
+              </df>
+              <df name="control">
+                <df name="detail">
+                  <df name="dmc">
+                    <in>while.hpp</in>
+                  </df>
+                  <df name="edg">
+                    <in>while.hpp</in>
+                  </df>
+                  <df name="msvc">
+                    <in>while.hpp</in>
+                  </df>
+                  <in>while.hpp</in>
+                </df>
+                <in>expr_if.hpp</in>
+                <in>expr_iif.hpp</in>
+                <in>if.hpp</in>
+                <in>iif.hpp</in>
+                <in>while.hpp</in>
+              </df>
+              <df name="debug">
+                <in>error.hpp</in>
+              </df>
+              <df name="detail">
+                <df name="dmc">
+                  <in>auto_rec.hpp</in>
+                </df>
+                <in>auto_rec.hpp</in>
+                <in>check.hpp</in>
+                <in>is_binary.hpp</in>
+              </df>
+              <df name="facilities">
+                <in>empty.hpp</in>
+                <in>identity.hpp</in>
+                <in>overload.hpp</in>
+              </df>
+              <df name="iteration">
+                <df name="detail">
+                  <df name="bounds">
+                    <in>lower1.hpp</in>
+                    <in>lower2.hpp</in>
+                    <in>lower3.hpp</in>
+                    <in>lower4.hpp</in>
+                    <in>lower5.hpp</in>
+                    <in>upper1.hpp</in>
+                    <in>upper2.hpp</in>
+                    <in>upper3.hpp</in>
+                    <in>upper4.hpp</in>
+                    <in>upper5.hpp</in>
+                  </df>
+                  <df name="iter">
+                    <in>forward1.hpp</in>
+                    <in>forward2.hpp</in>
+                    <in>forward3.hpp</in>
+                    <in>forward4.hpp</in>
+                    <in>forward5.hpp</in>
+                    <in>reverse1.hpp</in>
+                    <in>reverse2.hpp</in>
+                    <in>reverse3.hpp</in>
+                    <in>reverse4.hpp</in>
+                    <in>reverse5.hpp</in>
+                  </df>
+                  <in>finish.hpp</in>
+                  <in>local.hpp</in>
+                  <in>rlocal.hpp</in>
+                  <in>self.hpp</in>
+                  <in>start.hpp</in>
+                </df>
+                <in>iterate.hpp</in>
+                <in>local.hpp</in>
+                <in>self.hpp</in>
+              </df>
+              <df name="list">
+                <df name="detail">
+                  <df name="dmc">
+                    <in>fold_left.hpp</in>
+                  </df>
+                  <df name="edg">
+                    <in>fold_left.hpp</in>
+                    <in>fold_right.hpp</in>
+                  </df>
+                  <in>fold_left.hpp</in>
+                  <in>fold_right.hpp</in>
+                </df>
+                <in>adt.hpp</in>
+                <in>append.hpp</in>
+                <in>fold_left.hpp</in>
+                <in>fold_right.hpp</in>
+                <in>for_each_i.hpp</in>
+                <in>reverse.hpp</in>
+                <in>transform.hpp</in>
+              </df>
+              <df name="logical">
+                <in>and.hpp</in>
+                <in>bitand.hpp</in>
+                <in>bool.hpp</in>
+                <in>compl.hpp</in>
+              </df>
+              <df name="punctuation">
+                <in>comma.hpp</in>
+                <in>comma_if.hpp</in>
+              </df>
+              <df name="repetition">
+                <df name="detail">
+                  <df name="dmc">
+                    <in>for.hpp</in>
+                  </df>
+                  <df name="edg">
+                    <in>for.hpp</in>
+                  </df>
+                  <df name="msvc">
+                    <in>for.hpp</in>
+                  </df>
+                  <in>for.hpp</in>
+                </df>
+                <in>enum_params.hpp</in>
+                <in>enum_shifted_params.hpp</in>
+                <in>enum_trailing_params.hpp</in>
+                <in>for.hpp</in>
+                <in>repeat.hpp</in>
+                <in>repeat_from_to.hpp</in>
+              </df>
+              <df name="seq">
+                <df name="detail">
+                  <in>split.hpp</in>
+                </df>
+                <in>elem.hpp</in>
+                <in>first_n.hpp</in>
+                <in>fold_left.hpp</in>
+                <in>rest_n.hpp</in>
+                <in>seq.hpp</in>
+                <in>size.hpp</in>
+                <in>subseq.hpp</in>
+              </df>
+              <df name="slot">
+                <df name="detail">
+                  <in>counter.hpp</in>
+                  <in>def.hpp</in>
+                  <in>shared.hpp</in>
+                  <in>slot1.hpp</in>
+                  <in>slot2.hpp</in>
+                  <in>slot3.hpp</in>
+                  <in>slot4.hpp</in>
+                  <in>slot5.hpp</in>
+                </df>
+                <in>slot.hpp</in>
+              </df>
+              <df name="tuple">
+                <in>eat.hpp</in>
+                <in>elem.hpp</in>
+                <in>rem.hpp</in>
+                <in>to_list.hpp</in>
+              </df>
+              <df name="variadic">
+                <in>elem.hpp</in>
+                <in>size.hpp</in>
+              </df>
+              <in>cat.hpp</in>
+              <in>comma_if.hpp</in>
+              <in>dec.hpp</in>
+              <in>empty.hpp</in>
+              <in>enum_params.hpp</in>
+              <in>enum_shifted_params.hpp</in>
+              <in>expr_if.hpp</in>
+              <in>identity.hpp</in>
+              <in>inc.hpp</in>
+              <in>iterate.hpp</in>
+              <in>repeat.hpp</in>
+              <in>stringize.hpp</in>
+            </df>
+            <df name="regex">
+              <df name="config">
+                <in>cwchar.hpp</in>
+              </df>
+              <df name="pending">
+                <in>object_cache.hpp</in>
+                <in>static_mutex.hpp</in>
+                <in>unicode_iterator.hpp</in>
+              </df>
+              <df name="src">
+                <in>c_regex_traits.cxx</in>
+                <in>cpp_regex_traits.cxx</in>
+                <in>cregex.cxx</in>
+                <in>fileiter.cxx</in>
+                <in>icu.cxx</in>
+                <in>instances.cxx</in>
+                <in>internals.hpp</in>
+                <in>posix_api.cxx</in>
+                <in>regex.cxx</in>
+                <in>regex_debug.cxx</in>
+                <in>regex_raw_buffer.cxx</in>
+                <in>regex_traits_defaults.cxx</in>
+                <in>static_mutex.cxx</in>
+                <in>usinstances.cxx</in>
+                <in>w32_regex_traits.cxx</in>
+                <in>wc_regex_traits.cxx</in>
+                <in>wide_posix_api.cxx</in>
+                <in>winstances.cxx</in>
+              </df>
+              <df name="v4">
+                <in>basic_regex.hpp</in>
+                <in>basic_regex_creator.hpp</in>
+                <in>basic_regex_parser.hpp</in>
+                <in>c_regex_traits.hpp</in>
+                <in>char_regex_traits.hpp</in>
+                <in>cpp_regex_traits.hpp</in>
+                <in>cregex.hpp</in>
+                <in>error_type.hpp</in>
+                <in>fileiter.hpp</in>
+                <in>instances.hpp</in>
+                <in>iterator_category.hpp</in>
+                <in>iterator_traits.hpp</in>
+                <in>match_flags.hpp</in>
+                <in>match_results.hpp</in>
+                <in>mem_block_cache.hpp</in>
+                <in>perl_matcher.hpp</in>
+                <in>perl_matcher_common.hpp</in>
+                <in>perl_matcher_non_recursive.hpp</in>
+                <in>perl_matcher_recursive.hpp</in>
+                <in>primary_transform.hpp</in>
+                <in>protected_call.hpp</in>
+                <in>regbase.hpp</in>
+                <in>regex.hpp</in>
+                <in>regex_format.hpp</in>
+                <in>regex_fwd.hpp</in>
+                <in>regex_grep.hpp</in>
+                <in>regex_iterator.hpp</in>
+                <in>regex_match.hpp</in>
+                <in>regex_merge.hpp</in>
+                <in>regex_raw_buffer.hpp</in>
+                <in>regex_replace.hpp</in>
+                <in>regex_search.hpp</in>
+                <in>regex_split.hpp</in>
+                <in>regex_token_iterator.hpp</in>
+                <in>regex_traits.hpp</in>
+                <in>regex_traits_defaults.hpp</in>
+                <in>regex_workaround.hpp</in>
+                <in>states.hpp</in>
+                <in>sub_match.hpp</in>
+                <in>syntax_type.hpp</in>
+                <in>u32regex_iterator.hpp</in>
+                <in>u32regex_token_iterator.hpp</in>
+                <in>w32_regex_traits.hpp</in>
+              </df>
+              <in>config.hpp</in>
+              <in>icu.hpp</in>
+              <in>pattern_except.hpp</in>
+              <in>regex_traits.hpp</in>
+              <in>user.hpp</in>
+            </df>
+            <df name="smart_ptr">
+              <df name="detail">
+                <in>atomic_count.hpp</in>
+                <in>atomic_count_gcc.hpp</in>
+                <in>atomic_count_gcc_x86.hpp</in>
+                <in>atomic_count_pthreads.hpp</in>
+                <in>atomic_count_sync.hpp</in>
+                <in>atomic_count_win32.hpp</in>
+                <in>lightweight_mutex.hpp</in>
+                <in>lwm_nop.hpp</in>
+                <in>lwm_pthreads.hpp</in>
+                <in>lwm_win32_cs.hpp</in>
+                <in>operator_bool.hpp</in>
+                <in>quick_allocator.hpp</in>
+                <in>shared_count.hpp</in>
+                <in>shared_ptr_nmt.hpp</in>
+                <in>sp_convertible.hpp</in>
+                <in>sp_counted_base.hpp</in>
+                <in>sp_counted_base_acc_ia64.hpp</in>
+                <in>sp_counted_base_aix.hpp</in>
+                <in>sp_counted_base_cw_ppc.hpp</in>
+                <in>sp_counted_base_gcc_ia64.hpp</in>
+                <in>sp_counted_base_gcc_mips.hpp</in>
+                <in>sp_counted_base_gcc_ppc.hpp</in>
+                <in>sp_counted_base_gcc_sparc.hpp</in>
+                <in>sp_counted_base_gcc_x86.hpp</in>
+                <in>sp_counted_base_nt.hpp</in>
+                <in>sp_counted_base_pt.hpp</in>
+                <in>sp_counted_base_snc_ps3.hpp</in>
+                <in>sp_counted_base_spin.hpp</in>
+                <in>sp_counted_base_sync.hpp</in>
+                <in>sp_counted_base_vacpp_ppc.hpp</in>
+                <in>sp_counted_base_w32.hpp</in>
+                <in>sp_counted_impl.hpp</in>
+                <in>sp_has_sync.hpp</in>
+                <in>sp_nullptr_t.hpp</in>
+                <in>spinlock.hpp</in>
+                <in>spinlock_gcc_arm.hpp</in>
+                <in>spinlock_nt.hpp</in>
+                <in>spinlock_pool.hpp</in>
+                <in>spinlock_pt.hpp</in>
+                <in>spinlock_sync.hpp</in>
+                <in>spinlock_w32.hpp</in>
+                <in>yield_k.hpp</in>
+              </df>
+              <in>bad_weak_ptr.hpp</in>
+              <in>scoped_array.hpp</in>
+              <in>scoped_ptr.hpp</in>
+              <in>shared_ptr.hpp</in>
+            </df>
+            <df name="tr1">
+              <df name="detail">
+                <in>config.hpp</in>
+                <in>config_all.hpp</in>
+              </df>
+              <in>regex.hpp</in>
+            </df>
+            <df name="type_traits">
+              <df name="detail">
+                <in>bool_trait_def.hpp</in>
+                <in>bool_trait_undef.hpp</in>
+                <in>cv_traits_impl.hpp</in>
+                <in>false_result.hpp</in>
+                <in>ice_and.hpp</in>
+                <in>ice_eq.hpp</in>
+                <in>ice_not.hpp</in>
+                <in>ice_or.hpp</in>
+                <in>is_function_ptr_helper.hpp</in>
+                <in>is_function_ptr_tester.hpp</in>
+                <in>is_mem_fun_pointer_impl.hpp</in>
+                <in>is_mem_fun_pointer_tester.hpp</in>
+                <in>size_t_trait_def.hpp</in>
+                <in>size_t_trait_undef.hpp</in>
+                <in>template_arity_spec.hpp</in>
+                <in>type_trait_def.hpp</in>
+                <in>type_trait_undef.hpp</in>
+                <in>wrap.hpp</in>
+                <in>yes_no_type.hpp</in>
+              </df>
+              <df name="msvc">
+                <in>remove_bounds.hpp</in>
+                <in>remove_const.hpp</in>
+                <in>remove_cv.hpp</in>
+                <in>remove_pointer.hpp</in>
+                <in>remove_reference.hpp</in>
+                <in>typeof.hpp</in>
+              </df>
+              <in>add_const.hpp</in>
+              <in>add_lvalue_reference.hpp</in>
+              <in>add_pointer.hpp</in>
+              <in>add_reference.hpp</in>
+              <in>add_rvalue_reference.hpp</in>
+              <in>alignment_of.hpp</in>
+              <in>broken_compiler_spec.hpp</in>
+              <in>config.hpp</in>
+              <in>ice.hpp</in>
+              <in>integral_constant.hpp</in>
+              <in>intrinsics.hpp</in>
+              <in>is_abstract.hpp</in>
+              <in>is_arithmetic.hpp</in>
+              <in>is_array.hpp</in>
+              <in>is_base_and_derived.hpp</in>
+              <in>is_class.hpp</in>
+              <in>is_const.hpp</in>
+              <in>is_convertible.hpp</in>
+              <in>is_enum.hpp</in>
+              <in>is_float.hpp</in>
+              <in>is_function.hpp</in>
+              <in>is_integral.hpp</in>
+              <in>is_lvalue_reference.hpp</in>
+              <in>is_member_function_pointer.hpp</in>
+              <in>is_member_pointer.hpp</in>
+              <in>is_pod.hpp</in>
+              <in>is_pointer.hpp</in>
+              <in>is_polymorphic.hpp</in>
+              <in>is_reference.hpp</in>
+              <in>is_rvalue_reference.hpp</in>
+              <in>is_same.hpp</in>
+              <in>is_scalar.hpp</in>
+              <in>is_union.hpp</in>
+              <in>is_void.hpp</in>
+              <in>is_volatile.hpp</in>
+              <in>remove_bounds.hpp</in>
+              <in>remove_const.hpp</in>
+              <in>remove_cv.hpp</in>
+              <in>remove_pointer.hpp</in>
+              <in>remove_reference.hpp</in>
+              <in>type_with_alignment.hpp</in>
+            </df>
+            <df name="utility">
+              <in>addressof.hpp</in>
+              <in>enable_if.hpp</in>
+            </df>
+            <in>assert.hpp</in>
+            <in>checked_delete.hpp</in>
+            <in>config.hpp</in>
+            <in>cregex.hpp</in>
+            <in>cstdint.hpp</in>
+            <in>current_function.hpp</in>
+            <in>integer.hpp</in>
+            <in>integer_fwd.hpp</in>
+            <in>integer_traits.hpp</in>
+            <in>iterator.hpp</in>
+            <in>limits.hpp</in>
+            <in>memory_order.hpp</in>
+            <in>non_type.hpp</in>
+            <in>ref.hpp</in>
+            <in>regex.hpp</in>
+            <in>regex_fwd.hpp</in>
+            <in>scoped_array.hpp</in>
+            <in>scoped_ptr.hpp</in>
+            <in>shared_ptr.hpp</in>
+            <in>static_assert.hpp</in>
+            <in>throw_exception.hpp</in>
+            <in>type.hpp</in>
+            <in>version.hpp</in>
+          </df>
+          <df name="expat">
+            <in>ascii.h</in>
+            <in>asciitab.h</in>
+            <in>config.h</in>
+            <in>expat.h</in>
+            <in>expat_external.h</in>
+            <in>iasciitab.h</in>
+            <in>internal.h</in>
+            <in>latin1tab.h</in>
+            <in>nametab.h</in>
+            <in>utf8tab.h</in>
+            <in>xmlparse.c</in>
+            <in>xmlrole.c</in>
+            <in>xmlrole.h</in>
+            <in>xmltok.c</in>
+            <in>xmltok.h</in>
+            <in>xmltok_impl.c</in>
+            <in>xmltok_impl.h</in>
+            <in>xmltok_ns.c</in>
+          </df>
+          <df name="genx">
+            <in>char-props.c</in>
+            <in>genx.c</in>
+            <in>genx.h</in>
+          </df>
+          <in>config-vc.h</in>
+          <in>config.h</in>
+          <in>config.hxx</in>
+          <in>export.hxx</in>
+        </df>
+        <df name="fs">
+          <in>auto-remove.cxx</in>
+          <in>auto-remove.hxx</in>
+          <in>exception.cxx</in>
+          <in>exception.hxx</in>
+          <in>path.cxx</in>
+          <in>path.hxx</in>
+          <in>path.ixx</in>
+          <in>path.txx</in>
+        </df>
+        <df name="meta">
+          <in>answer.hxx</in>
+          <in>class-p.hxx</in>
+          <in>polymorphic-p.hxx</in>
+          <in>remove-c.hxx</in>
+          <in>remove-cv.hxx</in>
+          <in>remove-p.hxx</in>
+          <in>remove-v.hxx</in>
+        </df>
+        <df name="re">
+          <in>re.cxx</in>
+          <in>re.txx</in>
+        </df>
+        <df name="shared-ptr">
+          <in>base.cxx</in>
+          <in>base.hxx</in>
+          <in>base.ixx</in>
+          <in>base.txx</in>
+        </df>
+        <df name="xml">
+          <in>exception.hxx</in>
+          <in>parser.cxx</in>
+          <in>parser.hxx</in>
+          <in>parser.ixx</in>
+          <in>parser.txx</in>
+          <in>qname.cxx</in>
+          <in>qname.hxx</in>
+          <in>serializer.cxx</in>
+          <in>serializer.hxx</in>
+          <in>serializer.ixx</in>
+          <in>value-traits.cxx</in>
+          <in>value-traits.hxx</in>
+          <in>value-traits.txx</in>
+        </df>
+        <in>config.h</in>
+        <in>exception.cxx</in>
+        <in>exception.hxx</in>
+        <in>re.hxx</in>
+        <in>shared-ptr.hxx</in>
+        <in>static-ptr.hxx</in>
+      </df>
+      <df name="m4">
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

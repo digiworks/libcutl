@@ -1,0 +1,193 @@
+Making all in cutl
+make[1]: ingresso nella directory "/home/iot/NetBeansProjects/libcutl-1.9.0/cutl"
+/usr/bin/make  all-am
+make[2]: ingresso nella directory "/home/iot/NetBeansProjects/libcutl-1.9.0/cutl"
+depbase=`echo exception.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT exception.lo -MD -MP -MF $depbase.Tpo -c -o exception.lo exception.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT exception.lo -MD -MP -MF .deps/exception.Tpo -c exception.cxx  -fPIC -DPIC -o .libs/exception.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT exception.lo -MD -MP -MF .deps/exception.Tpo -c exception.cxx -o exception.o >/dev/null 2>&1
+depbase=`echo shared-ptr/base.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT shared-ptr/base.lo -MD -MP -MF $depbase.Tpo -c -o shared-ptr/base.lo shared-ptr/base.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT shared-ptr/base.lo -MD -MP -MF shared-ptr/.deps/base.Tpo -c shared-ptr/base.cxx  -fPIC -DPIC -o shared-ptr/.libs/base.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT shared-ptr/base.lo -MD -MP -MF shared-ptr/.deps/base.Tpo -c shared-ptr/base.cxx -o shared-ptr/base.o >/dev/null 2>&1
+depbase=`echo fs/exception.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT fs/exception.lo -MD -MP -MF $depbase.Tpo -c -o fs/exception.lo fs/exception.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT fs/exception.lo -MD -MP -MF fs/.deps/exception.Tpo -c fs/exception.cxx  -fPIC -DPIC -o fs/.libs/exception.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT fs/exception.lo -MD -MP -MF fs/.deps/exception.Tpo -c fs/exception.cxx -o fs/exception.o >/dev/null 2>&1
+depbase=`echo fs/path.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT fs/path.lo -MD -MP -MF $depbase.Tpo -c -o fs/path.lo fs/path.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT fs/path.lo -MD -MP -MF fs/.deps/path.Tpo -c fs/path.cxx  -fPIC -DPIC -o fs/.libs/path.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT fs/path.lo -MD -MP -MF fs/.deps/path.Tpo -c fs/path.cxx -o fs/path.o >/dev/null 2>&1
+depbase=`echo fs/auto-remove.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT fs/auto-remove.lo -MD -MP -MF $depbase.Tpo -c -o fs/auto-remove.lo fs/auto-remove.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT fs/auto-remove.lo -MD -MP -MF fs/.deps/auto-remove.Tpo -c fs/auto-remove.cxx  -fPIC -DPIC -o fs/.libs/auto-remove.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT fs/auto-remove.lo -MD -MP -MF fs/.deps/auto-remove.Tpo -c fs/auto-remove.cxx -o fs/auto-remove.o >/dev/null 2>&1
+depbase=`echo re/re.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT re/re.lo -MD -MP -MF $depbase.Tpo -c -o re/re.lo re/re.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT re/re.lo -MD -MP -MF re/.deps/re.Tpo -c re/re.cxx  -fPIC -DPIC -o re/.libs/re.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT re/re.lo -MD -MP -MF re/.deps/re.Tpo -c re/re.cxx -o re/re.o >/dev/null 2>&1
+depbase=`echo xml/qname.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT xml/qname.lo -MD -MP -MF $depbase.Tpo -c -o xml/qname.lo xml/qname.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/qname.lo -MD -MP -MF xml/.deps/qname.Tpo -c xml/qname.cxx  -fPIC -DPIC -o xml/.libs/qname.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/qname.lo -MD -MP -MF xml/.deps/qname.Tpo -c xml/qname.cxx -o xml/qname.o >/dev/null 2>&1
+depbase=`echo xml/parser.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT xml/parser.lo -MD -MP -MF $depbase.Tpo -c -o xml/parser.lo xml/parser.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/parser.lo -MD -MP -MF xml/.deps/parser.Tpo -c xml/parser.cxx  -fPIC -DPIC -o xml/.libs/parser.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/parser.lo -MD -MP -MF xml/.deps/parser.Tpo -c xml/parser.cxx -o xml/parser.o >/dev/null 2>&1
+depbase=`echo xml/serializer.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT xml/serializer.lo -MD -MP -MF $depbase.Tpo -c -o xml/serializer.lo xml/serializer.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/serializer.lo -MD -MP -MF xml/.deps/serializer.Tpo -c xml/serializer.cxx  -fPIC -DPIC -o xml/.libs/serializer.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/serializer.lo -MD -MP -MF xml/.deps/serializer.Tpo -c xml/serializer.cxx -o xml/serializer.o >/dev/null 2>&1
+depbase=`echo xml/value-traits.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT xml/value-traits.lo -MD -MP -MF $depbase.Tpo -c -o xml/value-traits.lo xml/value-traits.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/value-traits.lo -MD -MP -MF xml/.deps/value-traits.Tpo -c xml/value-traits.cxx  -fPIC -DPIC -o xml/.libs/value-traits.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT xml/value-traits.lo -MD -MP -MF xml/.deps/value-traits.Tpo -c xml/value-traits.cxx -o xml/value-traits.o >/dev/null 2>&1
+depbase=`echo compiler/context.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT compiler/context.lo -MD -MP -MF $depbase.Tpo -c -o compiler/context.lo compiler/context.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT compiler/context.lo -MD -MP -MF compiler/.deps/context.Tpo -c compiler/context.cxx  -fPIC -DPIC -o compiler/.libs/context.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT compiler/context.lo -MD -MP -MF compiler/.deps/context.Tpo -c compiler/context.cxx -o compiler/context.o >/dev/null 2>&1
+depbase=`echo compiler/type-info.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT compiler/type-info.lo -MD -MP -MF $depbase.Tpo -c -o compiler/type-info.lo compiler/type-info.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT compiler/type-info.lo -MD -MP -MF compiler/.deps/type-info.Tpo -c compiler/type-info.cxx  -fPIC -DPIC -o compiler/.libs/type-info.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT compiler/type-info.lo -MD -MP -MF compiler/.deps/type-info.Tpo -c compiler/type-info.cxx -o compiler/type-info.o >/dev/null 2>&1
+depbase=`echo compiler/cxx-indenter.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT compiler/cxx-indenter.lo -MD -MP -MF $depbase.Tpo -c -o compiler/cxx-indenter.lo compiler/cxx-indenter.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT compiler/cxx-indenter.lo -MD -MP -MF compiler/.deps/cxx-indenter.Tpo -c compiler/cxx-indenter.cxx  -fPIC -DPIC -o compiler/.libs/cxx-indenter.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT compiler/cxx-indenter.lo -MD -MP -MF compiler/.deps/cxx-indenter.Tpo -c compiler/cxx-indenter.cxx -o compiler/cxx-indenter.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/regex.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/regex.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/regex.lo details/boost/regex/src/regex.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex.lo -MD -MP -MF details/boost/regex/src/.deps/regex.Tpo -c details/boost/regex/src/regex.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/regex.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex.lo -MD -MP -MF details/boost/regex/src/.deps/regex.Tpo -c details/boost/regex/src/regex.cxx -o details/boost/regex/src/regex.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/usinstances.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/usinstances.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/usinstances.lo details/boost/regex/src/usinstances.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/usinstances.lo -MD -MP -MF details/boost/regex/src/.deps/usinstances.Tpo -c details/boost/regex/src/usinstances.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/usinstances.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/usinstances.lo -MD -MP -MF details/boost/regex/src/.deps/usinstances.Tpo -c details/boost/regex/src/usinstances.cxx -o details/boost/regex/src/usinstances.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/regex_raw_buffer.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/regex_raw_buffer.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/regex_raw_buffer.lo details/boost/regex/src/regex_raw_buffer.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex_raw_buffer.lo -MD -MP -MF details/boost/regex/src/.deps/regex_raw_buffer.Tpo -c details/boost/regex/src/regex_raw_buffer.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/regex_raw_buffer.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex_raw_buffer.lo -MD -MP -MF details/boost/regex/src/.deps/regex_raw_buffer.Tpo -c details/boost/regex/src/regex_raw_buffer.cxx -o details/boost/regex/src/regex_raw_buffer.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/fileiter.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/fileiter.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/fileiter.lo details/boost/regex/src/fileiter.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/fileiter.lo -MD -MP -MF details/boost/regex/src/.deps/fileiter.Tpo -c details/boost/regex/src/fileiter.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/fileiter.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/fileiter.lo -MD -MP -MF details/boost/regex/src/.deps/fileiter.Tpo -c details/boost/regex/src/fileiter.cxx -o details/boost/regex/src/fileiter.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/cpp_regex_traits.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/cpp_regex_traits.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/cpp_regex_traits.lo details/boost/regex/src/cpp_regex_traits.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/cpp_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/cpp_regex_traits.Tpo -c details/boost/regex/src/cpp_regex_traits.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/cpp_regex_traits.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/cpp_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/cpp_regex_traits.Tpo -c details/boost/regex/src/cpp_regex_traits.cxx -o details/boost/regex/src/cpp_regex_traits.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/instances.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/instances.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/instances.lo details/boost/regex/src/instances.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/instances.lo -MD -MP -MF details/boost/regex/src/.deps/instances.Tpo -c details/boost/regex/src/instances.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/instances.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/instances.lo -MD -MP -MF details/boost/regex/src/.deps/instances.Tpo -c details/boost/regex/src/instances.cxx -o details/boost/regex/src/instances.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/wide_posix_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/wide_posix_api.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/wide_posix_api.lo details/boost/regex/src/wide_posix_api.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/wide_posix_api.lo -MD -MP -MF details/boost/regex/src/.deps/wide_posix_api.Tpo -c details/boost/regex/src/wide_posix_api.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/wide_posix_api.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/wide_posix_api.lo -MD -MP -MF details/boost/regex/src/.deps/wide_posix_api.Tpo -c details/boost/regex/src/wide_posix_api.cxx -o details/boost/regex/src/wide_posix_api.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/regex_debug.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/regex_debug.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/regex_debug.lo details/boost/regex/src/regex_debug.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex_debug.lo -MD -MP -MF details/boost/regex/src/.deps/regex_debug.Tpo -c details/boost/regex/src/regex_debug.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/regex_debug.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex_debug.lo -MD -MP -MF details/boost/regex/src/.deps/regex_debug.Tpo -c details/boost/regex/src/regex_debug.cxx -o details/boost/regex/src/regex_debug.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/c_regex_traits.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/c_regex_traits.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/c_regex_traits.lo details/boost/regex/src/c_regex_traits.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/c_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/c_regex_traits.Tpo -c details/boost/regex/src/c_regex_traits.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/c_regex_traits.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/c_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/c_regex_traits.Tpo -c details/boost/regex/src/c_regex_traits.cxx -o details/boost/regex/src/c_regex_traits.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/posix_api.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/posix_api.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/posix_api.lo details/boost/regex/src/posix_api.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/posix_api.lo -MD -MP -MF details/boost/regex/src/.deps/posix_api.Tpo -c details/boost/regex/src/posix_api.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/posix_api.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/posix_api.lo -MD -MP -MF details/boost/regex/src/.deps/posix_api.Tpo -c details/boost/regex/src/posix_api.cxx -o details/boost/regex/src/posix_api.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/wc_regex_traits.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/wc_regex_traits.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/wc_regex_traits.lo details/boost/regex/src/wc_regex_traits.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/wc_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/wc_regex_traits.Tpo -c details/boost/regex/src/wc_regex_traits.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/wc_regex_traits.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/wc_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/wc_regex_traits.Tpo -c details/boost/regex/src/wc_regex_traits.cxx -o details/boost/regex/src/wc_regex_traits.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/cregex.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/cregex.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/cregex.lo details/boost/regex/src/cregex.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/cregex.lo -MD -MP -MF details/boost/regex/src/.deps/cregex.Tpo -c details/boost/regex/src/cregex.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/cregex.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/cregex.lo -MD -MP -MF details/boost/regex/src/.deps/cregex.Tpo -c details/boost/regex/src/cregex.cxx -o details/boost/regex/src/cregex.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/w32_regex_traits.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/w32_regex_traits.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/w32_regex_traits.lo details/boost/regex/src/w32_regex_traits.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/w32_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/w32_regex_traits.Tpo -c details/boost/regex/src/w32_regex_traits.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/w32_regex_traits.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/w32_regex_traits.lo -MD -MP -MF details/boost/regex/src/.deps/w32_regex_traits.Tpo -c details/boost/regex/src/w32_regex_traits.cxx -o details/boost/regex/src/w32_regex_traits.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/regex_traits_defaults.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/regex_traits_defaults.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/regex_traits_defaults.lo details/boost/regex/src/regex_traits_defaults.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex_traits_defaults.lo -MD -MP -MF details/boost/regex/src/.deps/regex_traits_defaults.Tpo -c details/boost/regex/src/regex_traits_defaults.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/regex_traits_defaults.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/regex_traits_defaults.lo -MD -MP -MF details/boost/regex/src/.deps/regex_traits_defaults.Tpo -c details/boost/regex/src/regex_traits_defaults.cxx -o details/boost/regex/src/regex_traits_defaults.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/static_mutex.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/static_mutex.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/static_mutex.lo details/boost/regex/src/static_mutex.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/static_mutex.lo -MD -MP -MF details/boost/regex/src/.deps/static_mutex.Tpo -c details/boost/regex/src/static_mutex.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/static_mutex.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/static_mutex.lo -MD -MP -MF details/boost/regex/src/.deps/static_mutex.Tpo -c details/boost/regex/src/static_mutex.cxx -o details/boost/regex/src/static_mutex.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/icu.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/icu.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/icu.lo details/boost/regex/src/icu.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/icu.lo -MD -MP -MF details/boost/regex/src/.deps/icu.Tpo -c details/boost/regex/src/icu.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/icu.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/icu.lo -MD -MP -MF details/boost/regex/src/.deps/icu.Tpo -c details/boost/regex/src/icu.cxx -o details/boost/regex/src/icu.o >/dev/null 2>&1
+depbase=`echo details/boost/regex/src/winstances.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CXX   --mode=compile /usr/bin/g++ -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -D_REENTRANT  -MT details/boost/regex/src/winstances.lo -MD -MP -MF $depbase.Tpo -c -o details/boost/regex/src/winstances.lo details/boost/regex/src/winstances.cxx &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/winstances.lo -MD -MP -MF details/boost/regex/src/.deps/winstances.Tpo -c details/boost/regex/src/winstances.cxx  -fPIC -DPIC -o details/boost/regex/src/.libs/winstances.o
+libtool: compile:  /usr/bin/g++ -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -D_REENTRANT -MT details/boost/regex/src/winstances.lo -MD -MP -MF details/boost/regex/src/.deps/winstances.Tpo -c details/boost/regex/src/winstances.cxx -o details/boost/regex/src/winstances.o >/dev/null 2>&1
+depbase=`echo details/expat/xmlparse.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -MT details/expat/xmlparse.lo -MD -MP -MF $depbase.Tpo -c -o details/expat/xmlparse.lo details/expat/xmlparse.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/expat/xmlparse.lo -MD -MP -MF details/expat/.deps/xmlparse.Tpo -c details/expat/xmlparse.c  -fPIC -DPIC -o details/expat/.libs/xmlparse.o
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/expat/xmlparse.lo -MD -MP -MF details/expat/.deps/xmlparse.Tpo -c details/expat/xmlparse.c -o details/expat/xmlparse.o >/dev/null 2>&1
+depbase=`echo details/expat/xmlrole.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -MT details/expat/xmlrole.lo -MD -MP -MF $depbase.Tpo -c -o details/expat/xmlrole.lo details/expat/xmlrole.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/expat/xmlrole.lo -MD -MP -MF details/expat/.deps/xmlrole.Tpo -c details/expat/xmlrole.c  -fPIC -DPIC -o details/expat/.libs/xmlrole.o
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/expat/xmlrole.lo -MD -MP -MF details/expat/.deps/xmlrole.Tpo -c details/expat/xmlrole.c -o details/expat/xmlrole.o >/dev/null 2>&1
+depbase=`echo details/expat/xmltok.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -MT details/expat/xmltok.lo -MD -MP -MF $depbase.Tpo -c -o details/expat/xmltok.lo details/expat/xmltok.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/expat/xmltok.lo -MD -MP -MF details/expat/.deps/xmltok.Tpo -c details/expat/xmltok.c  -fPIC -DPIC -o details/expat/.libs/xmltok.o
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/expat/xmltok.lo -MD -MP -MF details/expat/.deps/xmltok.Tpo -c details/expat/xmltok.c -o details/expat/xmltok.o >/dev/null 2>&1
+depbase=`echo details/genx/genx.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -MT details/genx/genx.lo -MD -MP -MF $depbase.Tpo -c -o details/genx/genx.lo details/genx/genx.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/genx/genx.lo -MD -MP -MF details/genx/.deps/genx.Tpo -c details/genx/genx.c  -fPIC -DPIC -o details/genx/.libs/genx.o
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/genx/genx.lo -MD -MP -MF details/genx/.deps/genx.Tpo -c details/genx/genx.c -o details/genx/genx.o >/dev/null 2>&1
+depbase=`echo details/genx/char-props.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+	/bin/bash ../libtool --tag=CC   --mode=compile /usr/bin/gcc -DHAVE_CONFIG_H   -I.. -I.. -DLIBCUTL_DYNAMIC_LIB   -g3 -gdwarf-2 -MT details/genx/char-props.lo -MD -MP -MF $depbase.Tpo -c -o details/genx/char-props.lo details/genx/char-props.c &&\
+	mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/genx/char-props.lo -MD -MP -MF details/genx/.deps/char-props.Tpo -c details/genx/char-props.c  -fPIC -DPIC -o details/genx/.libs/char-props.o
+libtool: compile:  /usr/bin/gcc -DHAVE_CONFIG_H -I.. -I.. -DLIBCUTL_DYNAMIC_LIB -g3 -gdwarf-2 -MT details/genx/char-props.lo -MD -MP -MF details/genx/.deps/char-props.Tpo -c details/genx/char-props.c -o details/genx/char-props.o >/dev/null 2>&1
+/bin/bash ../libtool --tag=CXX   --mode=link /usr/bin/g++  -g3 -gdwarf-2 -D_REENTRANT  -release 1.9 -no-undefined  -o libcutl.la -rpath /usr/local/lib exception.lo shared-ptr/base.lo fs/exception.lo fs/path.lo fs/auto-remove.lo re/re.lo xml/qname.lo xml/parser.lo xml/serializer.lo xml/value-traits.lo compiler/context.lo compiler/type-info.lo compiler/cxx-indenter.lo details/boost/regex/src/regex.lo details/boost/regex/src/usinstances.lo details/boost/regex/src/regex_raw_buffer.lo details/boost/regex/src/fileiter.lo details/boost/regex/src/cpp_regex_traits.lo details/boost/regex/src/instances.lo details/boost/regex/src/wide_posix_api.lo details/boost/regex/src/regex_debug.lo details/boost/regex/src/c_regex_traits.lo details/boost/regex/src/posix_api.lo details/boost/regex/src/wc_regex_traits.lo details/boost/regex/src/cregex.lo details/boost/regex/src/w32_regex_traits.lo details/boost/regex/src/regex_traits_defaults.lo details/boost/regex/src/static_mutex.lo details/boost/regex/src/icu.lo details/boost/regex/src/winstances.lo details/expat/xmlparse.lo details/expat/xmlrole.lo details/expat/xmltok.lo details/genx/genx.lo details/genx/char-props.lo  -lpthread
+libtool: link: /usr/bin/g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/4.8/crtbeginS.o  .libs/exception.o shared-ptr/.libs/base.o fs/.libs/exception.o fs/.libs/path.o fs/.libs/auto-remove.o re/.libs/re.o xml/.libs/qname.o xml/.libs/parser.o xml/.libs/serializer.o xml/.libs/value-traits.o compiler/.libs/context.o compiler/.libs/type-info.o compiler/.libs/cxx-indenter.o details/boost/regex/src/.libs/regex.o details/boost/regex/src/.libs/usinstances.o details/boost/regex/src/.libs/regex_raw_buffer.o details/boost/regex/src/.libs/fileiter.o details/boost/regex/src/.libs/cpp_regex_traits.o details/boost/regex/src/.libs/instances.o details/boost/regex/src/.libs/wide_posix_api.o details/boost/regex/src/.libs/regex_debug.o details/boost/regex/src/.libs/c_regex_traits.o details/boost/regex/src/.libs/posix_api.o details/boost/regex/src/.libs/wc_regex_traits.o details/boost/regex/src/.libs/cregex.o details/boost/regex/src/.libs/w32_regex_traits.o details/boost/regex/src/.libs/regex_traits_defaults.o details/boost/regex/src/.libs/static_mutex.o details/boost/regex/src/.libs/icu.o details/boost/regex/src/.libs/winstances.o details/expat/.libs/xmlparse.o details/expat/.libs/xmlrole.o details/expat/.libs/xmltok.o details/genx/.libs/genx.o details/genx/.libs/char-props.o   -lpthread -L/usr/lib/gcc/i686-linux-gnu/4.8 -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/4.8/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/4.8/../../.. -lstdc++ -lm -lc -lgcc_s /usr/lib/gcc/i686-linux-gnu/4.8/crtendS.o /usr/lib/gcc/i686-linux-gnu/4.8/../../../i386-linux-gnu/crtn.o    -Wl,-soname -Wl,libcutl-1.9.so -o .libs/libcutl-1.9.so
+libtool: link: (cd ".libs" && rm -f "libcutl.so" && ln -s "libcutl-1.9.so" "libcutl.so")
+copying selected object files to avoid basename conflicts...
+libtool: link: ln fs/exception.o .libs/libcutl.lax/lt1-exception.o || cp fs/exception.o .libs/libcutl.lax/lt1-exception.o
+libtool: link: ar cru .libs/libcutl.a exception.o shared-ptr/base.o .libs/libcutl.lax/lt1-exception.o fs/path.o fs/auto-remove.o re/re.o xml/qname.o xml/parser.o xml/serializer.o xml/value-traits.o compiler/context.o compiler/type-info.o compiler/cxx-indenter.o details/boost/regex/src/regex.o details/boost/regex/src/usinstances.o details/boost/regex/src/regex_raw_buffer.o details/boost/regex/src/fileiter.o details/boost/regex/src/cpp_regex_traits.o details/boost/regex/src/instances.o details/boost/regex/src/wide_posix_api.o details/boost/regex/src/regex_debug.o details/boost/regex/src/c_regex_traits.o details/boost/regex/src/posix_api.o details/boost/regex/src/wc_regex_traits.o details/boost/regex/src/cregex.o details/boost/regex/src/w32_regex_traits.o details/boost/regex/src/regex_traits_defaults.o details/boost/regex/src/static_mutex.o details/boost/regex/src/icu.o details/boost/regex/src/winstances.o details/expat/xmlparse.o details/expat/xmlrole.o details/expat/xmltok.o details/genx/genx.o details/genx/char-props.o
+libtool: link: ranlib .libs/libcutl.a
+libtool: link: rm -fr .libs/libcutl.lax
+libtool: link: ( cd ".libs" && rm -f "libcutl.la" && ln -s "../libcutl.la" "libcutl.la" )
+make[2]: uscita dalla directory "/home/iot/NetBeansProjects/libcutl-1.9.0/cutl"
+make[1]: uscita dalla directory "/home/iot/NetBeansProjects/libcutl-1.9.0/cutl"
+make[1]: ingresso nella directory "/home/iot/NetBeansProjects/libcutl-1.9.0"
+make[1]: Nessuna operazione da eseguire per "all-am".
+make[1]: uscita dalla directory "/home/iot/NetBeansProjects/libcutl-1.9.0"

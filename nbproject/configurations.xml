@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="cutl">
+        <df name="compiler">
+          <in>context.cxx</in>
+          <in>cxx-indenter.cxx</in>
+          <in>type-info.cxx</in>
+        </df>
+        <df name="details">
+          <df name="boost">
+            <df name="regex">
+              <df name="src">
+                <in>c_regex_traits.cxx</in>
+                <in>cpp_regex_traits.cxx</in>
+                <in>cregex.cxx</in>
+                <in>fileiter.cxx</in>
+                <in>icu.cxx</in>
+                <in>instances.cxx</in>
+                <in>posix_api.cxx</in>
+                <in>regex.cxx</in>
+                <in>regex_debug.cxx</in>
+                <in>regex_raw_buffer.cxx</in>
+                <in>regex_traits_defaults.cxx</in>
+                <in>static_mutex.cxx</in>
+                <in>usinstances.cxx</in>
+                <in>w32_regex_traits.cxx</in>
+                <in>wc_regex_traits.cxx</in>
+                <in>wide_posix_api.cxx</in>
+                <in>winstances.cxx</in>
+              </df>
+            </df>
+          </df>
+          <df name="expat">
+            <in>xmlparse.c</in>
+            <in>xmlrole.c</in>
+            <in>xmltok.c</in>
+          </df>
+          <df name="genx">
+            <in>char-props.c</in>
+            <in>genx.c</in>
+          </df>
+        </df>
+        <df name="fs">
+          <in>auto-remove.cxx</in>
+          <in>exception.cxx</in>
+          <in>path.cxx</in>
+        </df>
+        <df name="re">
+          <in>re.cxx</in>
+        </df>
+        <df name="shared-ptr">
+          <in>base.cxx</in>
+        </df>
+        <df name="xml">
+          <in>parser.cxx</in>
+          <in>qname.cxx</in>
+          <in>serializer.cxx</in>
+          <in>value-traits.cxx</in>
+        </df>
+        <in>exception.cxx</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-fPIC"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>cutl/.libs/libcutl-1.9.so</executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+              <pElem>cutl</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+              <Elem>LIBCUTL_DYNAMIC_LIB</Elem>
+              <Elem>PIC</Elem>
+            </preprocessorList>
+          </cTool>
+          <ccTool>
+            <incDir>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H</Elem>
+              <Elem>LIBCUTL_DYNAMIC_LIB</Elem>
+              <Elem>PIC</Elem>
+              <Elem>_REENTRANT</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="cutl/compiler/context.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/compiler/cxx-indenter.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/compiler/type-info.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/c_regex_traits.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/cpp_regex_traits.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/cregex.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/fileiter.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/icu.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/instances.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/posix_api.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/regex.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/regex_debug.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/regex_raw_buffer.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/regex_traits_defaults.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/static_mutex.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/usinstances.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/w32_regex_traits.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/wc_regex_traits.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/wide_posix_api.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/boost/regex/src/winstances.cxx"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/details/expat/xmlparse.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cutl/details/expat/xmlrole.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cutl/details/expat/xmltok.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cutl/details/genx/char-props.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cutl/details/genx/genx.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="cutl/exception.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/fs/auto-remove.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/fs/exception.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/fs/path.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/re/re.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/shared-ptr/base.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/xml/parser.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/xml/qname.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/xml/serializer.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="cutl/xml/value-traits.cxx" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="0/cutl/compiler">
+        <ccTool>
+          <incDir>
+            <pElem>cutl</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cutl/details">
+        <ccTool>
+          <incDir>
+            <pElem>cutl</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cutl/fs">
+        <ccTool>
+          <incDir>
+            <pElem>cutl</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cutl/re">
+        <ccTool>
+          <incDir>
+            <pElem>cutl</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cutl/shared-ptr">
+        <ccTool>
+          <incDir>
+            <pElem>cutl</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/cutl/xml">
+        <ccTool>
+          <incDir>
+            <pElem>cutl</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>

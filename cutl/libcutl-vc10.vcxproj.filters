@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A4EE4929-6BF6-4B45-8BF1-3187A81F096E}</UniqueIdentifier>
+      <Extensions>c;cxx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D965C189-96AF-4E9F-9C05-D815464A588F}</UniqueIdentifier>
+      <Extensions>h;hxx;ixx;txx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+
+    <ClInclude Include="shared-ptr\base.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared-ptr\base.ixx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared-ptr\base.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="re\re.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\parser.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\exception.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\value-traits.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\parser.ixx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\serializer.ixx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\value-traits.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\serializer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\parser.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\qname.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta\remove-cv.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta\class-p.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta\remove-c.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta\polymorphic-p.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta\answer.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta\remove-p.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meta\remove-v.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared-ptr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\type-id.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\type-info.ixx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\traversal.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\traversal.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\type-id.ixx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\type-info.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\code-stream.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\type-id.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\sloc-counter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\context.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\cxx-indenter.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\cxx-indenter.ixx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\code-stream.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\sloc-counter.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\cxx-indenter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="compiler\context.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="static-ptr.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="details\export.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="details\config.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\exception.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\path.ixx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\path.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\auto-remove.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fs\path.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container\key.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container\pointer-iterator.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container\map-iterator.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container\graph.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container\graph.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container\any.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="container\multi-index.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="re.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+
+    <ClInclude Include="details\expat\expat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="details\expat\expat_external.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+
+    <ClInclude Include="details\genx\genx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+
+    <ClCompile Include="exception.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared-ptr\base.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fs\exception.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fs\path.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fs\auto-remove.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="re\re.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\qname.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\parser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\serializer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\value-traits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\context.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\type-info.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="compiler\cxx-indenter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+
+    <ClCompile Include="details\boost\regex\src\regex.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\usinstances.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\regex_raw_buffer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\fileiter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\cpp_regex_traits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\instances.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\wide_posix_api.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\regex_debug.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\c_regex_traits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\posix_api.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\wc_regex_traits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\cregex.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\w32_regex_traits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\regex_traits_defaults.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\static_mutex.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\icu.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\boost\regex\src\winstances.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+
+    <ClCompile Include="details\expat\xmlparse.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\expat\xmlrole.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\expat\xmltok.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+
+    <ClCompile Include="details\genx\genx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="details\genx\char-props.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
